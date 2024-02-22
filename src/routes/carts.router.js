@@ -10,7 +10,7 @@ router.get('/:cid', async (req,res) =>{
         const cart = await carts.getCartById(cartId)
         res.send(cart)
     }catch(err){
-        res.status(500).send({err:"Error al mostrar el carrito"})
+        res.status(500).send({err:"Error al mostrar el carrito."})
     }
 } )
 

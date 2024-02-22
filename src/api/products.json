@@ -13,7 +13,7 @@
 	{
 		"id": 2,
 		"title": "Fideos Matarazzo",
-		"description": "Paquete de fideos tipo spaghetti x500gr",
+		"description": "Paquete de fideos tipo spaghetti x500gr.",
 		"code": 1002,
 		"price": 500,
 		"status": true,

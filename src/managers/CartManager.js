@@ -34,7 +34,7 @@ class CartManager {
 
         const carts = await this.getCarts();
         let cartFound = carts.find((cart)=> cart.id === cartid);
-        if(!cartFound) return console.log('Carrito inexistente')
+        if(!cartFound) return console.log('Carrito inexistente.')
         const productExists = cartFound.products.find(prod => prod.id === productid)
         if(productExists){
             productExists.quantity++

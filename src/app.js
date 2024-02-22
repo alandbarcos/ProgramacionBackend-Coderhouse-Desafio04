@@ -21,7 +21,7 @@ app.use('/api/products',productsRouter)
 app.use('/api/carts',cartsRouter)
 app.use('/', productsViews);
 
-const httpServer=app.listen(8080, ()=> console.log("Listening... 🏃‍♂️"));
+const httpServer=app.listen(8080, ()=> console.log("Listening.. 🏃‍♂️"));
 const io= new Server(httpServer);
 
 io.on('connection', async socket =>{

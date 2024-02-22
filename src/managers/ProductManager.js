@@ -35,7 +35,7 @@ class ProductManager {
         const incompleteValues = Object.values(newproduct).includes(undefined);
 
         if (incompleteValues) {
-            return console.log("Por favor llene todos los campos solicitaods");
+            return console.log("Por favor llene todos los campos solicitados");
         }
 
         if (productRepeat) {
